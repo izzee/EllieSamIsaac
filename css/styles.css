@@ -1,0 +1,84 @@
+body{
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background: linear-gradient(white, #afb3b7);
+}
+
+#topbar{
+  margin: auto;
+  width: 70vw;
+  height: 70px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(#fafafa, #dee2e5);
+  border: 3px solid #fafafa;
+  box-shadow: inset 0 0 2px #808586, 0 0 2px #808586;
+}
+
+#topbar a{
+  line-height: 70px;
+  font-size: 3vw;
+  font-family: 'Schoolbell';
+  text-decoration: none;
+  color: #e0e1e6;
+  text-shadow: 0 .75px 0 #808586;
+}
+#topbar a:hover{
+  color: white;
+}
+
+#main-content{
+  position: relative;
+  width: 70vw;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin: 25px auto 50px auto;
+  border-radius: 5px;
+  border: 3px solid #f8f9f9;
+  background: linear-gradient(#f8f9f9, #b8bcc0);
+  box-shadow: inset 0 0 2px #808586, 0 0 2px #808586;
+}
+
+#main-content img{
+  margin: auto;
+  transform: translateY(-20px);
+  max-width: 100%;
+}
+
+#img-caption{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: -10px;
+  color: #fafafa;
+  font-size: 2vw;
+  font-family: 'Schoolbell';
+  text-shadow: 0 .75px 0 #808586, 0 -.75px 0 #fafafa;
+}
+
+.navbutton{
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(15px);
+  font-family: 'Schoolbell';
+  color: #fafafa;
+  font-size: 30px;
+  text-shadow: 0 .75px 0 #808586;
+  border: none;
+  background: none;
+}
+
+.navbutton:hover{
+  cursor: pointer;
+  color: #e0e1e6;
+}
+
+#plus{right: -50px;}
+
+#minus{left: -50px;}
